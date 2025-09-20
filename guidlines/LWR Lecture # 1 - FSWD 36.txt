@@ -1,0 +1,24 @@
+Pre Requirments: 	
+   - Html 	
+   - CSS
+   - Bootstrap ( Optional )
+------------
+Laravel And React Before that we have to know about php , mysql ...
+---------------------------------------------------------------
+Backend Development:
+	-  A Backend Developer Is Reponsible For Manage Data Of Website or Application , 
+	   File Structure , Security Management , Work Load Manage
+        -  A Backend Developer is the main person of the team -------
+.........................................................................
+Installation of php : 
+	- Requirements Servers : Local Server (Xampp / Wamppp / Mamp) / Live Server (namecheap , bluehost , goddady , hostgator) ..
+	- Xampp Download and install
+	- Xampp Path : C:xampp/htdocs/  ( Server Folder )
+	- Server Controll Panel ..
+Explaination of Control panel of xampp:
+	- Apache   : For Run PHP 
+	- Mysql    : For Run Mysql Database
+	- Filezila : For FTP ( File Transport Protocol ) 
+Guidlines: 
+	- We can write : Html , css , js any web related code in php file ..
+	- Why we use echo and print and what is the difference between echo and print?
