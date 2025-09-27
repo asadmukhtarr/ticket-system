@@ -1,37 +1,28 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
-</head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">Asad Mukhtar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.php">Home</a>
-                </li>
-                <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Account
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="index.php">Login</a></li>
-                    <li><a class="dropdown-item" href="register.php">Register</a></li>
-                </ul>
-                </li>
-            </ul>
-            </div>
+<?php include('includes/header.php'); ?>
+
+<!-- Centered Login Form -->
+<div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
+  <div class="card p-4 shadow" style="width: 100%; max-width: 400px;">
+    <h3 class="text-center mb-4"> <i class="fa fa-users"></i> Login</h3>
+    <form action="login_process.php" method="POST">
+      <div class="mb-3">
+        <label for="email" class="form-label">Email address</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="fa fa-user"></i></span>
+          <input type="email" name="email" class="form-control" id="email" placeholder="Enter email" required>
         </div>
-        </nav>
-</body>
-</html>
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Password</label>
+        <div class="input-group">
+          <span class="input-group-text"><i class="fa fa-lock"></i></span>
+          <input type="password" name="password" class="form-control" id="password" placeholder="Enter password" required>
+        </div>
+      </div>
+      <label>You have not account? <a href="register.php">Register Here</a></label>
+      <button type="submit" class="btn btn-primary w-100 mt-1">Login</button>
+    </form>
+  </div>
+</div>
+
+<?php include('includes/footer.php'); ?>

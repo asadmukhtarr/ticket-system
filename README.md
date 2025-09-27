@@ -11,3 +11,8 @@
             - Register.php
         - After Login
             - Home.php
+# Php Interview Questions
+    - What is include in php ? ( inculde ka matlb huta ha shamil krna ) ..
+    - What is difference between required and include ...
+    - Can we create nested form? : No ...
+    - Number of basic methods in php? 3 Basic Methods : GET , POST , DELETE ..

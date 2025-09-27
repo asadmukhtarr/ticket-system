@@ -1,11 +1,9 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
-</head>
-<body>
-    <h1>Home</h1>
-</body>
-</html>
+<?php include('includes/header.php'); ?>
+  <!-- Welcome Message -->
+  <div class="container welcome-box d-flex justify-content-center align-items-center flex-column text-center mt-2">
+    <i class="fa fa-smile-o fa-5x text-success mb-4"></i>
+    <h1 class="mb-3">Welcome to the Login System</h1>
+    <p class="lead">You have successfully logged in. Enjoy your stay!</p>
+    <a href="login.html" class="btn btn-outline-primary mt-4"><i class="fa fa-sign-out"></i> Logout</a>
+  </div>
+<?php include('includes/footer.php'); ?>
