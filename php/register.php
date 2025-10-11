@@ -4,6 +4,9 @@
 <div class="container d-flex justify-content-center align-items-center" style="min-height: 100vh;">
   <div class="card p-4 shadow" style="width: 100%; max-width: 450px;">
     <h3 class="text-center mb-4"> <i class="fa fa-user-plus"></i> Register</h3>
+    <?php if(!empty($_GET['error'])){ ?>
+      <strong class="text-danger"> <i class="fa fa-exclamation-triangle"></i>  <?php echo $_GET['error']; ?></strong>
+    <?php } ?>
     <form action="actions/register.php" method="POST">
       <!-- Full Name -->
       <div class="mb-3">

@@ -20,3 +20,4 @@
     - What is difference between = , == , === : = is use for assign value , == is use for compare values , === is   use for compare type and values
     - What is use of header() function ? : Header function is use for redirect proccess.
     - Why we use Queries In Database? Quries are use for communicate with database ..
+    - What is difference between GET And Post method in php ?
