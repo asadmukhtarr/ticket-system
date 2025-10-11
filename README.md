@@ -17,3 +17,6 @@
     - Can we create nested form? : No ...
     - Number of basic methods in php? 3 Basic Methods : GET , POST , DELETE ..
     - What is the defualt password of localhost phpmyadmin : there is no password
+    - What is difference between = , == , === : = is use for assign value , == is use for compare values , === is   use for compare type and values
+    - What is use of header() function ? : Header function is use for redirect proccess.
+    - Why we use Queries In Database? Quries are use for communicate with database ..
