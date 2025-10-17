@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
+    <?php  session_start(); ?>
     <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container">
             <a class="navbar-brand" href="#"> <i class="fa fa-cogs"></i> Asad Mukhtarr</a>
@@ -17,16 +18,24 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="home.php"> <i class="fa fa-home"></i> Home</a>
-                </li>
+                <?php if(!empty($_SESSION['name'])){  ?>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="home.php"> <i class="fa fa-home"></i> Home</a>
+                    </li>
+                <?php } ?>
                 <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <i class="fa fa-user-circle"></i> Account
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <?php if(empty($_SESSION['name'])){ ?>
                     <li><a class="dropdown-item" href="index.php">Login</a></li>
                     <li><a class="dropdown-item" href="register.php">Register</a></li>
+                    <?php } else {
+                    ?>
+                     <li><a class="dropdown-item" href="actions/logout.php">Logout</a></li>
+                    <?php
+                    } ?>
                 </ul>
                 </li>
             </ul>
