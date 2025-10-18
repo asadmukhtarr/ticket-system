@@ -21,3 +21,14 @@
     - What is use of header() function ? : Header function is use for redirect proccess.
     - Why we use Queries In Database? Quries are use for communicate with database ..
     - What is difference between GET And Post method in php ?
+# Laravel Interview Question ..
+    - What is framework and why we use it?
+    - Types of framworks in web?
+    - What is MVC? Model , View , Controller ..
+
+# Laravel Guidlines
+    - Installation of laravel
+        - Step # 1: Xampp Download And Installation 
+        - Step # 2: Download composer and install
+        - Step # 3: Run this command : composer global require laravel/installer ( only once ).
+        - Step # 4: 
