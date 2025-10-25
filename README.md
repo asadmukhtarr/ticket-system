@@ -11,6 +11,9 @@
             - Register.php
         - After Login
             - Home.php
+# Laravel Project Planing :
+    - Hotel Room Booking System
+    - Project Details Is In Word file of project folder ..
 # Php Interview Questions
     - What is include in php ? ( inculde ka matlb huta ha shamil krna ) ..
     - What is difference between required and include ...
