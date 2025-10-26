@@ -29,7 +29,12 @@
     - Types of framworks in web?
     - What is MVC? Model , View , Controller ..
     - What is use of css and js folder in resrouce file? when we use vueJS in laravel then we use it.
-
+# Authentication With Vue In Laravel .. 
+    - Install Laravel Project : 
+    - create database and connect it with project
+    - Install this package : composer require laravel/ui
+    - Install this package now : php artisan ui vue --auth
+    - run this command but nodejs should be installed in computer : npm install
 # Laravel Guidlines
     - Installation of laravel
         - Step # 1: Xampp Download And Installation 
