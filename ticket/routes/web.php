@@ -1,30 +1,20 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\pagesController;
 
-Route::get('/', function () {
-    return view('welcome');
-})->name('home');
+Route::get('/',[pagesController::class,'home'])->name('home');
 // about page ..
-Route::get('about',function(){
-    return view('about');
-})->name('about');
+Route::get('about',[pagesController::class,'about'])->name('about');
 // contact page ..
-Route::get('/contact',function(){
-    return view('contact');
-});
+Route::get('/contact',[pagesController::class,'contact'])->name('contact');
 // rooms..
-Route::get('/rooms',function(){
-    return view('rooms');
-})->name('room');
+Route::get('/rooms',[pagesController::class,'rooms'])->name('rooms');
 // room 
-Route::get('/room',function(){
-    return view('room');
-})->name('room.profile');
+Route::get('/room',[pagesController::class,'room'])->name('room.profile');
 // checkout ..
-Route::get('/checkout',function(){
-    return view('checkout');
-})->name('checkout');
+Route::get('/checkout',[pagesController::class,'checkout'])->name('checkout');
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
