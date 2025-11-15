@@ -128,7 +128,6 @@
             width: 100px;
             height: 4px;
             background: linear-gradient(to right, #3498db, #e74c3c);
-            border-radius: 2px;
         }
         
         /* Hero Section */
@@ -198,7 +197,6 @@
         .btn-primary {
             background: linear-gradient(to right, #3498db, #2980b9);
             border: none;
-            border-radius: 0px;
             font-weight: 600;
             transition: all 0.3s ease;
         }

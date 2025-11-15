@@ -1,5 +1,4 @@
 @extends('layouts.admin')
-@section('title','Users')
+@section('title','All Rooms')
 @section('content')
-Hello Admin Users ..
 @endsection
