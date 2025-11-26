@@ -29,6 +29,7 @@
     - Types of framworks in web?
     - What is MVC? Model , View , Controller ..
     - What is use of css and js folder in resrouce file? when we use vueJS in laravel then we use it.
+    - Can we add two return commands in one  function? : No ..
 # Authentication With Vue In Laravel .. 
     - Install Laravel Project : 
     - create database and connect it with project
