@@ -1,0 +1,88 @@
+Orientation Class Of Full Stack Javascript Development
+Webeducatorz | Learn Online Earn Online 
++92 326 43 00 993 | info@webeducatorz.org
+Mentor: Muhammad Asad Mukhtar 
+Full Stack Web And Mobile Application Developer
+9 Years Expirence | 200+ Projects
+Top Rated Freelancer 
+2 Products 
+Youtuber: youtube.com/@asadmukhtarr
+Blogger : asadmukhtar.info
+-----------------------------------------------------
+- Full Stack  => Frontend + Backend 
+- Javascript Development => JS k ander ( Frontend + Backend )
+-----------------------------------------------------------------
+Full Stack JS Development With MERN Stack :
+---------------------------------------------------
+M : MongoDB 
+E : ExpressJS 
+R : ReactJS 
+N : NodeJS 
+---------
+Explain :
+	- Backend  : NodeJs + Express + MongoDB
+	- Frontend : ReactJS 
+----------------------------------
+Pre Requirements: 
+	- Html 
+	- CSS
+	- Any Framework of Html & CSS ( Bootstrap / Tailwind )..
+---------------------
+1) What we will learn in Full Stack JS With MERN ?
+2) Why we should be a full stack js developer?
+3) What we can do after this course?
+----------------------------------------
+Why we should be full stack JS Developer?
+	- Best option for startup as full stack web developer? MERN Stack ..
+	- JS is using in all fields in related to online world?
+	- Job / Project Easy Approach
+- What we will learn in this bootcamp?
+ 	- Html And CSS With Respect to JS 
+	- BasicJS : Project 1
+		- Fundamentals  ( Conditions , Loops , Variables .... )
+		- ES7, ES6 
+		- Typescript 
+	- ReactJS : Project 2
+		- Installation of ReactJS
+		- Project Explaination
+		- Components
+		- Sub Components ( Perant Components , Child Components )
+		- Props & State Management 
+		- Hooks In JS ( States , UseEffect , Callback ) ...
+		- Redux ( what is redux and why we use it?)
+		- API Management ( CRUD System )
+		- Laravel API With React 
+		- Fetch () , Axios  ....
+		- NextJS Instal  : Project 3 
+		- complete Working With NextJS 
+	- MongoDB : Project 4 : Command Base Project
+		- Installation 
+		- NoMysal Database 
+		- Fetch 
+		- Delete ( Many Data , One Data)
+		- Update 
+		- Show 
+	- NodeJS + ExpressJS : Project 5
+		- Installation of NodeJs 
+		- Project Creation in node
+		- nodemon
+		- installation of expressjs
+		- ejs engines ( frontend in nodeJs )
+		- Routes 
+		- Connection with mongodb 
+		- api development 
+		- Auth base | Simple API ( Rest full api )
+	- Project 6 : Final Project:
+		- React + (NodeJs, ExpressJS) + MongodB
+-----------------------------------------------------------
+You will have these skills:
+	- Full Stack ReactJS Development
+	- Full Stack Web Developer
+	- Professional NodeJs Developr
+
+
+
+
+
+
+
